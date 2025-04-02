@@ -59,12 +59,6 @@ fit_text.SetTextSize(0.03)
 fit_text.SetTextAlign(13)  # Left alignment
 
 # Fit function parameters (Fix ± issue with #pm)
-# fit_text.DrawLatex(0.15, 0.85, f"Fit: s/#sqrt{{E}} + n/E + c")
-# fit_text.DrawLatex(0.15, 0.85, "Fit: #sqrt{(a/#sqrt{E})^{2} + (b/E)^{2} + c^{2}}")
-# fit_text.DrawLatex(0.15, 0.80, f"s = {s_fit:.4f} #pm {s_err:.4f}")
-# fit_text.DrawLatex(0.15, 0.75, f"n = {n_fit:.4f} #pm {n_err:.4f}")
-# fit_text.DrawLatex(0.15, 0.70, f"c = {c_fit:.4f} #pm {c_err:.4f}")
-
 fit_text.DrawLatex(0.60, 0.70, "Fit: #sqrt{(s/#sqrt{E})^{2} + (n/E)^{2} + c^{2}}")
 fit_text.DrawLatex(0.60, 0.65, f"s = {s_fit:.4f} #pm {s_err:.4f}")
 fit_text.DrawLatex(0.60, 0.60, f"n = {n_fit:.4f} #pm {n_err:.4f}")
