@@ -30,7 +30,7 @@ n_fit, n_err = fit_func.GetParameter(1), fit_func.GetParError(1)
 c_fit, c_err = fit_func.GetParameter(2), fit_func.GetParError(2)
 
 # Set graph styles
-graph.SetTitle("Energy Resolution vs Injected Energy")
+graph.SetTitle(" ")
 graph.GetXaxis().SetTitle("Injected Energy (GeV)")
 graph.GetYaxis().SetTitle("#sigma_{E} / E_{avg}")
 graph.SetMarkerStyle(20)
