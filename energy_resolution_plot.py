@@ -22,7 +22,7 @@ fit_func = ROOT.TF1("fit_func", fittingFunction, 0.05, 5.0, 3)
 fit_func.SetParameters(0.2135, 0.00001, 0.02231)  # Initial guess
 
 # Perform the fit
-graph.Fit(fit_func, "MR", "", 0.05, 4.5)
+graph.Fit(fit_func, "MR", "", 0.05, 8.5)
 
 # Extract fit parameters and uncertainties
 s_fit, s_err = fit_func.GetParameter(0), fit_func.GetParError(0)
